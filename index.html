@@ -23,16 +23,32 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Experience and Education</a></li>
-						<li><a href="#three">My Projects</a></li>
+						<li><a href="#two">Experience</a></li>
+						<li><a href="#three">Education</a></li>
+						<li><a href="#four">My Projects</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-linkedin"><span class="label">linkedin</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
+						<li><a href="https://github.com/matiasnicky" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="www.linkedin.com/in/matiasmikolasd" target="_blank" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+						<li><a href="#" onclick="copyEmail()" class="icon solid fa-envelope">
+							<span class="label">Email</span>
+						  </a>
+						  <span id="tooltip"></span>
+						</li>
+					  
+						<script>
+						  function copyEmail() {
+							const email = 'matiasmikolasd@gmail.com';
+							navigator.clipboard.writeText(email);
+							const tooltip = document.getElementById('tooltip');
+							tooltip.innerText = 'Email copied!';
+							setTimeout(function() {
+							  tooltip.innerText = '';
+							}, 1000);
+						  }
+						</script></ul>
 				</footer>
 			</section>
 
@@ -69,6 +85,10 @@
 										<li class="icon solid fa-book">AutoCAD: Providing accurate measurement of Brake components</li>
 										<li class="icon solid fa-coffee">Microsoft Office: Utilizing particularly Excel on daily basis managing data</li>
 									</ul></div>
+							</section>
+
+							<!-- Three -->
+							<section id="three">
 								<div class="container">
 									<header class="major">
 									<h2>Education</h2>
@@ -83,8 +103,8 @@
 								</div>
 							</section>
 
-						<!-- Three -->
-							<section id="three">
+						<!-- Four-->
+							<section id="four">
 								<div class="container">
 									<h3>My Projects</h3>
 									<p>Here are various projects that I have done for University, Work and personal use</p>
@@ -92,8 +112,8 @@
 										<article>
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Website Table scraping tool</h4>
-												<p>One of my responsibility in DRD is to gather data </p>
+												<h4>Dropdown Menu scraping tool</h4>
+												<p>Personalised Python script to scrape the data of a dropdown menu on specific websites</p>
 											</div>
 										</article>
 										<article>
@@ -450,7 +470,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Matias Mikolas Dwigianto Portfolio. 2023</li>
+								<li>&copy; Matias Mikolas Dwigianto Portfolio</li>
 							</ul>
 						</div>
 					</section>
