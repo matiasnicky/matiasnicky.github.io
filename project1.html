@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Matias Mikolas Dwigianto</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Matias Mikolas Dwigianto</a></h1>
+					<p>Working Student at DriveRightData Student at HTW Berlin</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" class="active">About Me</a></li>
+						<li><a href="index.html#two">Experience</a></li>
+						<li><a href="index.html#three">Education</a></li>
+						<li><a href="index.html#four">My Projects</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://github.com/matiasnicky" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/matiasmikolasd" target="_blank" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+						<li><a onclick="copyEmail()" class="icon solid fa-envelope">
+							<span class="label">Email</span>
+						  </a>
+						  <span id="tooltip"></span>
+						</li>
+					  
+						<script>
+						  function copyEmail() {
+							const email = 'matiasmikolasd@gmail.com';
+							navigator.clipboard.writeText(email);
+							const tooltip = document.getElementById('tooltip');
+							tooltip.innerText = '    Email copied!';
+							setTimeout(function() {
+							  tooltip.innerText = '';
+							}, 1000);
+						  }
+						</script></ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Dropdown Menu Scraping tool</h2>
+										<p>My name is Matias Mikolas Dwigianto and you can learn more about my work <a href="index.html#four">here</a>.</p>
+									</header>
+									<p>As an Indonesian student in Automotive Engineering at HTW Berlin, I've faced various challenges on my journey here. However, I refuse to settle and am determined to push forward. Balancing my studies with the need to work for financial support means I haven't had the opportunity to fully indulge my passion for the automotive industry. Despite this, I firmly believe that my commitment and qualifications remain strong. I have no regrets and am resolute in contributing my ideas to the company I wholeheartedly believe in. </p>
+								</div>
+							</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Matias Mikolas Dwigianto Portfolio</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
