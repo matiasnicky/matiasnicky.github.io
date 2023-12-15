@@ -3159,8 +3159,14 @@ input, select, textarea {
 				font-size: 1em;
 			}
 			.text-overlay h2 {
-				font-size: 2em; /* Adjust the font size for mobile devices */
+				font-size: 1.5em; /* Adjust the font size for mobile devices */
 				/* Other styles */
+				margin-top: -120px;
+				transform: translateY(-10%);
+			}
+			.text-overlay p {
+				font-size: 1em;
+
 			}
 
 		/* Image */
@@ -3240,7 +3246,10 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 2em 0 0 0;
+				padding: 1em 0 0 0;
+			}
+			#main > section#one > .container {
+				margin-top: -200px;/* Your styles for the container within the section with ID '1' */
 			}
 
 		/* Footer */
