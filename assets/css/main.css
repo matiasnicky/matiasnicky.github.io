@@ -2225,7 +2225,7 @@ input, select, textarea {
 			}
 			
 			.text-overlay h2 {
-				font-size: 3.5em;
+				font-size: 5em;
 				margin-bottom: 0px;
 				color:#5ed0b1
 			}
@@ -3157,6 +3157,10 @@ input, select, textarea {
 
 			h4 {
 				font-size: 1em;
+			}
+			.text-overlay h2 {
+				font-size: 2em; /* Adjust the font size for mobile devices */
+				/* Other styles */
 			}
 
 		/* Image */
