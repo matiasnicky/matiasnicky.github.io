@@ -739,7 +739,36 @@ strong {
   transform: rotate(0) translateY(0);
 }
 
-.projects-thumb .popup-image {
+.projects-thumb .gallery {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.projects-thumb .gallery-1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-thumb .gallery-2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-thumb .gallery-3 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-thumb .gallery-4 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-thumb .gallery-5 {
   display: block;
   width: 100%;
   height: 100%;
