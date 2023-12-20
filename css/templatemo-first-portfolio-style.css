@@ -774,6 +774,12 @@ strong {
   height: 100%;
 }
 
+.projects-thumb .gallery-6 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .projects-image {
   border-radius: var(--border-radius-medium);
   display: block;

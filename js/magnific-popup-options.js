@@ -26,4 +26,5 @@ $(document).ready(function() {
   magnifPopup('.gallery-3');
   magnifPopup('.gallery-4');
   magnifPopup('.gallery-5');
+  magnifPopup('.gallery-6');
 });
