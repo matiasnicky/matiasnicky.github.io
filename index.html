@@ -1,251 +1,496 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="description" content="">
-        <meta name="author" content="TemplateMo">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Matias's Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-        <title>Matias's Portfolio</title>
+  <!-- Favicons -->
+  <link href="assets/img/memoji_matias_1.PNG" rel="icon">
+  <link href="assets/img/memoji_matias_1.PNG" rel="apple-touch-icon">
 
-        <!-- CSS FILES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-        <link href="css/magnific-popup.css" rel="stylesheet">
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  * Note: To anyone reading this, thank you for inspecting my portfolio. It was based on a template from BootstrapMade, 
+          which I customized to suit my needs. If you find it useful, feel free to use it as well. I appreciate your interest in my work!
+  ======================================================== -->
+</head>
 
-        <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
-        
-<!--
+<body class="index-page">
 
-TemplateMo 578 First Portfolio
+  <header id="header" class="header d-flex flex-column justify-content-center">
 
-https://templatemo.com/tm-578-first-portfolio
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
--->
-    </head>
-    
-    <body>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#skills"><i class="bi bi-tools"></i><span>Skills</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-person"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <!-- <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li> -->
+      </ul>
+    </nav>
 
-        <section class="preloader">
-            <div class="spinner">
-                <span class="spinner-rotate"></span>    
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <img src="assets/img/matias_bg.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Matias Mikolas Dwigianto</h2>
+            <p>I'm <span class="typed" data-typed-items="an Automotive Engineer, an Intern at Volkswagen AG, a Car Enthusiast"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <!--<a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>-->
+              <a href="https://linkedin.com/in/matiasmikolasd" target="_blank"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/matiasnicky" target="_blank"><i class="bi bi-github"></i></a>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
+    </section><!-- /Hero Section -->
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-                <a href="index.html" class="navbar-brand mx-auto mx-lg-0">Matias</a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-lg-5">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Home</a>
-                        </li>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Originally from Indonesia, I recently earned my Bachelor's degree in Automotive Engineering from HTW Berlin. 
+          My focus lies in the design and implementation of embedded vehicle functions—particularly in electric vehicles 
+          (EVs)—with hands-on experience in rapid prototyping, ECU software integration, and HMI development using real-time systems.
+        </p>
+      </div><!-- End Section Title -->
 
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">About</a>
-                        </li>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">Projects</a>
-                    </ul>
-
-                    <div class="d-lg-flex align-items-center d-none ms-auto">
-                        <i class="navbar-icon me-1"><a href="https://github.com/matiasnicky" target ="_blank" class="navbar-icon bi bi-github"></a></i>
-                        <i class="navbar-icon me-1"><a href="https://linkedin.com/in/matiasmikolasd" target ="_blank" class="navbar-icon bi-linkedin"></a></i>
-                        <i class="navbar-icon me-1"><a onclick="copyEmail()" class="navbar-icon bi-envelope-fill"></a></i>
-                        <span id="tooltip"></span>
-                        <script>
-                            function copyEmail() {
-                              const email = 'matiasmikolasd@gmail.com';
-                              navigator.clipboard.writeText(email);
-                              const tooltip = document.getElementById('tooltip');
-                              tooltip.innerText = '    Email copied!';
-                              setTimeout(function() {
-                                tooltip.innerText = '';
-                              }, 1000);
-                            }
-                          </script>           
-                    </div>
-                </div>
-
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/matias_profile.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Automotive Function Developer &amp; HMI Prototype Engineer.</h2>
+            <p class="fst-italic py-3">
+              I'm passionate about bridging driver experience and vehicle control systems—translating functional ideas into testable, working prototypes.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>28 Nov 2000</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+49 17628870746</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Wolfsburg, DE</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>matiasmikolasd@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Driving License:</strong> <span>B (Car) + Prototype Authorization</span></li>
+                </ul>
+              </div>
             </div>
-        </nav>
+            <p class="py-3">
+              I love exploring new ideas, engaging in hands-on projects, and collaborating with others to create innovative solutions. 
+              My work ethic is driven by a commitment to quality and a passion for continuous learning. 
+              It has always been my goal to contribute to the advancement of automotive technology—especially in this era of electrification and 
+              the urgent need for sustainable mobility solutions.
+            </p>
+          </div>
+        </div>
 
-        <main>
+      </div>
 
-            <section class="hero d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row">
+    </section><!-- /About Section -->
 
-                        <div class="col-lg-7 col-12">
-                            <div class="hero-text">
-                                <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                     <h1 class="hero-title ms-3 mb-0">Hello There!</h1>
-                                </div>
+    <!-- Skills Section -->
+    <section id="skills" class="services section">
 
-                                <h2 class="mb-4">I'm Matias Mikolas Dwigianto</h2>
-                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">About Me</a></p>
-                            </div>
-                        </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>I have utilized a variety of tools and software throughout my work, studies, and hobbies. 
+          This skill set enables me to be versatile in solving a wide range of problems. 
+          I'm always eager to learn new technologies and methodologies to further enhance my capabilities.</p>
+      </div><!-- End Section Title -->
 
-                        <div class="col-lg-5 col-12 position-relative">
-                            <div class="hero-image-wrap"></div>
-                            <img src="images/avatar.png" class="hero-image img-fluid" alt="">
-                        </div>
+      <div class="container">
 
-                    </div>
-                </div>
+        <div class="row gy-4">
 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#535da1" fill-opacity="1" d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,64C336,53,384,75,432,106.7C480,139,528,181,576,208C624,235,672,245,720,240C768,235,816,213,864,186.7C912,160,960,128,1008,133.3C1056,139,1104,181,1152,202.7C1200,224,1248,224,1296,197.3C1344,171,1392,117,1416,90.7L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
-            </section>
-
-
-            <section class="about section-padding" id="section_2">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-12">
-                            <img src="images/IMG_3324.png" class="about-image img-fluid" alt="">
-                        </div>
-
-                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                            <div class="about-thumb">
-                                <div class="section-title-wrap">
-                                    <h2 class="text-white me-0 mb-0">About Me</h2>
-                                </div>
-                                <p style="text-align: justify;"><br>Born and raised in <b>Indonesia</b>, I recently earned my Bachelor's degree in Automotive Engineering from 
-                                    <b>HTW Berlin</b>. My passion for automotive development led me to complete my bachelor's thesis at <b>Volkswagen AG</b>, 
-                                    where I worked with the pre-development team in the Drive Function and Dynamics department.</p>
-                                <p style="text-align: justify;">Looking ahead, I'm seeking 
-                                    opportunities to further develop my skills and contribute to shaping the future of mobility.
-                                </p>
-                                <br><p class="mb-4"><a class="custom-btn btn custom-link" href="https://drive.google.com/file/d/1X4Ap2j7TtoGcbWYSNZtny4IctSoTRhRR/view?usp=sharing" target="_blank">My Resume</a></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="services section-padding" id="section_3">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-10 col-12 mx-auto">
-                            <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                                
-                                <h1 class="text-white ms-0 mb-0">My Projects</h1>
-                            </div>
-
-                            <div class="row pt-lg-5">
-                                <div class="col-lg-6 col-12">
-                                    <div class="services-thumb">
-                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">Python</h3>
-                                        </div>
-
-                                        <p>Creating and utilizing scripts using python has been helping me increase work efficiency and data accuracy</p>
-
-                                        <a href="python.html" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                            <i class="services-icon bi-code-slash"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <div class="services-thumb services-thumb-up">
-                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">CAD</h3>
-                                        </div>
-
-                                        <p>Utilizing Catia v5, Inventor and Creo on several projects.</p>
-
-                                        <a href="cad.html" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                            <i class="services-icon bi-tools"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <div class="services-thumb">
-                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">Matlab</h3>
-                                        </div>
-
-                                        <p>Calculating and creating visual representation with formulas and diagrams using MATLAB</p>
-
-                                        <a href="#section_3" class="custom-btn custom-border-btn btn mt-3">Coming Soon</a>
-
-                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                            <i class="services-icon bi-calculator-fill"></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <div class="services-thumb services-thumb-up">
-                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                            <h3 class="mb-0">Instagram</h3>
-                                        </div>
-
-                                        <p>Platform to share my passion for cars</p>
-
-                                        <a href="https://www.instagram.com/famosmedia/" target="_blank" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                            <i class="services-icon bi-instagram"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12">
-                        <div class="copyright-text-wrap">
-                            <p class="mb-0">
-                                <span class="copyright-text">Copyright © 2036 <a href="#">Matias's Portfolio</a> All rights reserved.</span>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item item-cyan position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bi bi-car-front"></i>
+              </div>
+              <!-- <a href="#" class="stretched-link"> -->
+                <h3>Rapid Prototyping</h3>
+              </a>
+              <p>Experienced in the design and implementation of new software functions, 
+                and in integrating prototypes into existing vehicle systems using rapid 
+                prototyping tools such as ASCET, INCA, and MDA from ETAS.
+              </p>
+              <div class="d-flex justify-content-center align-items-center flex-wrap gap-3 my-2 mt-4">
+                <img src="assets/img/logos/etas.png" alt="ETAS" height="40">
+                <img src="assets/img/logos/ascet.png" alt="ASCET" height="40">
+                <img src="assets/img/logos/inca.png" alt="INCA" height="40">
+                <img src="assets/img/logos/mda.png" alt="MDA" height="40">
+                <img src="assets/img/logos/diagra.jpg" alt="MDA" height="40">
+                <!-- <img src="assets/img/logos/es830.png" alt="ES830" height="40"> -->
+                <!-- Add more logos as needed -->
+              </div>
             </div>
-        </footer>
+          </div><!-- End Service Item -->
 
-        <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/magnific-popup-options.js"></script>
-        <script src="js/custom.js"></script>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item item-orange position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <!-- <a href="#" class="stretched-link"> -->
+                <h3>Programming</h3>
+              </a>
+              <p>Skilled in Python for script development, particularly GUI implementation and CAN networking. 
+                Experienced in using MATLAB to analyse electric motor performance. Familiar with Linux, VS Code, Git and Bitbucket.</p>
+              <div class="d-flex justify-content-center align-items-center flex-wrap gap-3 my-2 mt-4">
+                <img src="assets/img/logos/vscode.png" alt="VSCode" height="40">
+                <img src="assets/img/logos/bitbucket.png" alt="Bitbucket" height="40">
+                <img src="assets/img/logos/python.png" alt="Python" height="40">
+                <img src="assets/img/logos/matlab.png" alt="Matlab" height="40">
+                <img src="assets/img/logos/linux.png" alt="Linux" height="40">
+                <!-- <img src="assets/img/logos/es830.png" alt="ES830" height="40"> -->
+                <!-- Add more logos as needed -->
+              </div>
+            </div>
+          </div><!-- End Service Item -->
 
-    </body>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item item-teal position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bi bi-easel"></i>
+              </div>
+              <!-- <a href="#" class="stretched-link"> -->
+                <h3>Computer Aided Design</h3>
+              </a>
+              <p>Proficient in using CAD tools, including CATIA V5, Autodesk Inventor and AutoCAD. 
+                Experienced in using KISSsoft for stress simulations and selecting compatible mechanical components.</p>
+              <div class="d-flex justify-content-center align-items-center flex-wrap gap-3 my-2 mt-4">
+                <img src="assets/img/logos/catiav5.svg" alt="Catia" height="40">
+                <img src="assets/img/logos/inventor.png" alt="Inventor" height="40">
+                <img src="assets/img/logos/autocad.png" alt="Autocad" height="45">
+                <img src="assets/img/logos/kisssoft.png" alt="KISSsoft" height="40">
+                <!-- Add more logos as needed -->
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Matias Mikolas Dwigianto</h4>
+              <p><em>I am a recent graduate of the Automotive Engineering programme, currently interning at Volkswagen. 
+                My goal is to contribute to the future of mobility and to learn continuously along the way. 
+                I bring versatility and adaptability to every team I join thanks to my hands-on experience using a variety of tools and software.</em></p>
+              <ul>
+                <li>Kleiststr. 35, Wolfsburg, DE</li>
+                <li>(+49) 176288746</li>
+                <li>matiasmikolasd@gmail.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science &#45; Automotive Engineering</h4>
+              <h5>Apr 2021 - Jun 2025</h5>
+              <p><em>HTW Berlin, Berlin, DE</em></p>
+              <p>During my Automotive Engineering studies at HTW Berlin, 
+                I gained a solid foundation in mathematics, physics, computer science, 
+                and core engineering disciplines such as materials science, mechanics, 
+                mechatronics, CAD, and manufacturing. The program also covered advanced 
+                automotive topics including thermodynamics, fluid mechanics, 
+                vehicle powertrains, chassis systems, driving dynamics, and vehicle safety. 
+                My education was complemented by elective modules, hands-on industry 
+                internship experience, and a final thesis project.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Studienkolleg &#45; Technical Course</h4>
+              <h5>Feb 2020 - Jan 2021</h5>
+              <p><em>Hochschule Wismar, Wismar, DE</em></p>
+              <p>Preparatory course for studies in STEM subjects.</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+              <h4>Voluntary Internship - Software Development</h4>
+              <h5>May 2025 - Present</h5>
+              <p><em>Volkswagen AG, Wolfsburg, DE </em></p>
+              <ul>
+                <li>Design and implementation of a prototype display visualizing drivetrain functions.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor's Thesis Student - Function Development</h4>
+              <h5>Nov 2024 - May 2025</h5>
+              <p><em>Volkswagen AG, Wolfsburg, DE</em></p>
+              <ul>
+                <li>Developed a functional prototype system that enables the personalization of recuperation strength in an exsiting vehicle system.</li>
+                <li>Collaborated with drivetrain dn HMI teams to define requirements and address implementation challenges.</li>
+                <li>Modeled and configured the prototype software and developed a prototype HMI display based on the defined requirements, including support for multiple implementation alternatives.</li>
+                <li>Integrated implementations into their respective interfaces according to the prototype design using Rapid Prototyping method and tool chaings from the company ETAS</li>
+                <li>Verified system functionality and communication between prototype interfaces through test-track sessions and analyzed vehicle log data to assess interface performance, identify constraints, and support debugging.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+            
+            <div class="resume-item">
+              <h4>Mandatory Internship - Software Development</h4>
+              <h5>May 2024 - Nov 2024</h5>
+              <p><em>Volkswagen AG, Wolfsburg, DE</em></p>
+              <ul>
+                <li>Further development of visualization software for an external display in a demonstration vehicle running on a Linux-based operating system.</li>
+                <li>Developed a locally hosted Web-App, allowing users to change vehicle settings via network-connected devices.</li>
+                <li>Implemented a display feature that triggers CAN measurement replay via button click, enabling visualization of drivetrain functions through synchronized animations without vehicle movement.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-prototyping">Prototyping</li>
+            <li data-filter=".filter-programming">Programming</li>
+            <!-- <li data-filter=".filter-branding">CAD</li>
+            <li data-filter=".filter-branding">Social Media</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-prototyping filter-programming">
+              <img src="assets/img/showcase-portfolio/RP_Adjustable_Recuperation.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Adjustable Recuperation</h4>
+                <p>Prototype integration of adjustable recuperation strength in an existing vehicle system - Design and implementation of Drivetrain Software and HMI Display.</p>
+                <!-- <a href="assets/img/showcase-portfolio/RP_Adjustable_Recuperation.jpg" title="Rapid Prototying" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="adjustable-recuperation.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> --><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> --><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> --><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> --><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> --><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> --><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div> --><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div> -->
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Matias Mikolas Dwigianto</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <div class="social-links d-flex justify-content-center">
+        <!-- <a href=""><i class="bi bi-instagram"></i></a> -->
+        <a href="https://www.linkedin.com/in/matiasmikolasd/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/matiasnicky" target="_blank"><i class="bi bi-github"></i></a>
+        <!-- <a href=""><i class="bi bi-envelope"></i></a> -->
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright © 2036 </span> <strong class="px-1 sitename">Matias Mikolas Dwigianto</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited by <a href="https://themewagon.com">ThemeWagon</a> -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
