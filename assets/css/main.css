@@ -761,7 +761,7 @@ section,
 --------------------------------------------------------------*/
 .portfolio .portfolio-filters {
   padding: 0;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 40px auto;
   list-style: none;
   text-align: center;
 }
@@ -804,8 +804,9 @@ section,
 .portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 0 0 0 0;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -866,23 +867,23 @@ section,
   bottom: 0;
 }
 
-/* Portfolio item image drop shadow (all sides, including top and bottom) */
+/* Portfolio item image drop shadow (softer all sides, including top and bottom) */
 .portfolio-item img {
   box-shadow:
-    0 8px 24px rgba(0,0,0,0.18),   /* bottom */
-    0 -8px 24px rgba(0,0,0,0.10),  /* top */
-    0 0px 2px rgba(0,0,0,0.10),    /* center soft */
-    0 2px 8px rgba(0,0,0,0.10);    /* subtle all around */
+    0 6px 18px rgba(0,0,0,0.10),   /* bottom */
+    0 -6px 18px rgba(0,0,0,0.06),  /* top */
+    0 0px 1px rgba(0,0,0,0.07),    /* center soft */
+    0 1.5px 4px rgba(0,0,0,0.07);  /* subtle all around */
   border-radius: 12px;
   transition: box-shadow 0.3s;
 }
 
 .portfolio-item img:hover {
   box-shadow:
-    0 16px 32px rgba(0,0,0,0.22),
-    0 -16px 32px rgba(0,0,0,0.14),
-    0 0px 4px rgba(0,0,0,0.12),
-    0 4px 16px rgba(0,0,0,0.12);
+    0 12px 24px rgba(0,0,0,0.13),
+    0 -12px 24px rgba(0,0,0,0.08),
+    0 0px 2px rgba(0,0,0,0.09),
+    0 3px 8px rgba(0,0,0,0.09);
 }
 
 /*--------------------------------------------------------------
