@@ -1,0 +1,79 @@
+<!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Experience</h3>
+
+            <div class="resume-item">
+              <h4>Voluntary Internship - Software Development</h4>
+              <h5>May 2025 - Present</h5>
+              <p><em>Volkswagen AG, Wolfsburg, DE </em></p>
+              <ul>
+                <li>Design and implementation of a prototype display visualizing drivetrain functions.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor's Thesis Student - Function Development</h4>
+              <h5>Nov 2024 - May 2025</h5>
+              <p><em>Volkswagen AG, Wolfsburg, DE</em></p>
+              <ul>
+                <li>Developed a functional prototype system that enables the personalization of recuperation strength in an exsiting vehicle system.</li>
+                <li>Collaborated with drivetrain dn HMI teams to define requirements and address implementation challenges.</li>
+                <li>Modeled and configured the prototype software and developed a prototype HMI display based on the defined requirements, including support for multiple implementation alternatives.</li>
+                <li>Integrated implementations into their respective interfaces according to the prototype design using Rapid Prototyping method and tool chaings from the company ETAS</li>
+                <li>Verified system functionality and communication between prototype interfaces through test-track sessions and analyzed vehicle log data to assess interface performance, identify constraints, and support debugging.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+            
+            <div class="resume-item">
+              <h4>Mandatory Internship - Software Development</h4>
+              <h5>May 2024 - Nov 2024</h5>
+              <p><em>Volkswagen AG, Wolfsburg, DE</em></p>
+              <ul>
+                <li>Further development of visualization software for an external display in a demonstration vehicle running on a Linux-based operating system.</li>
+                <li>Developed a locally hosted Web-App, allowing users to change vehicle settings via network-connected devices.</li>
+                <li>Implemented a display feature that triggers CAN measurement replay via button click, enabling visualization of drivetrain functions through synchronized animations without vehicle movement.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science &#45; Automotive Engineering</h4>
+              <h5>Apr 2021 - Jun 2025</h5>
+              <p><em>HTW Berlin, Berlin, DE</em></p>
+              <p>During my Automotive Engineering studies at HTW Berlin, 
+                I gained a solid foundation in mathematics, physics, computer science, 
+                and core engineering disciplines such as materials science, mechanics, 
+                mechatronics, CAD, and manufacturing. The program also covered advanced 
+                automotive topics including thermodynamics, fluid mechanics, 
+                vehicle powertrains, chassis systems, driving dynamics, and vehicle safety. 
+                My education was complemented by elective modules, hands-on industry 
+                internship experience, and a final thesis project.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Studienkolleg &#45; Technical Course</h4>
+              <h5>Feb 2020 - Jan 2021</h5>
+              <p><em>Hochschule Wismar, Wismar, DE</em></p>
+              <p>Preparatory course for studies in STEM subjects.</p>
+            </div><!-- Edn Resume Item -->  
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
